@@ -8,6 +8,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
+    showHomepageTags: true
     favicon:
 
     footer:

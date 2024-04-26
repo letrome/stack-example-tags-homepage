@@ -25,6 +25,9 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --scrollbar-thumb: hsl(0, 0%, 85%);
     --scrollbar-track: var(--body-background);
 
+    --home-article-tags-color: rgba(114, 114, 114, 1);
+    --home-article-tags-hr-color: rgba(153, 153, 153, 1);
+
     &[data-scheme="dark"] {
         --body-background: #303030;
         --accent-color: #ecf0f1;
@@ -33,6 +36,9 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
         --body-text-color: rgba(255, 255, 255, 0.7);
         --scrollbar-thumb: hsl(0, 0%, 40%);
         --scrollbar-track: var(--body-background);
+
+        --home-article-tags-hr-color: rgba(102, 102, 102, 1);
+        --home-article-tags-color: rgba(255, 255, 255, 0.7);
     }
 }
 
